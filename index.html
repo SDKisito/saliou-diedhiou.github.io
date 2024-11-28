@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Saliou Diedhiou</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            background: #555;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bonjour, je suis Saliou DIEDHIOU</h1>
+        <p>Futur Ingénieur DevOps | Economiste | Data Scientist / Analyst - Machine Learning | Expert BI |Chef de Projet en Intelligence Artificielle | Fondateur de SD Consolidated Accuracy.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#expertise">Mon Expertise</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Compétences Techniques</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#interests">Centres d'intérêt</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="container">
+            <h2>À propos</h2>
+            <p>Passionné par les données et la technologie, je combine des compétences en Data Science et DevOps pour offrir des solutions d'analyse, de machine learning, et d'automatisation complètes.</p>
+            <p>Formation académique solide avec un doctorat en Économie quantitative et économétrie, et actuellement en formation d'ingénierie DevOps.</p>
+        </section>
+        
+        <section id="expertise" class="container">
+            <h2>Mon Expertise</h2>
+            <ul>
+                <li>Développement de modèles prédictifs en Machine Learning et Deep Learning.</li>
+                <li>Création de pipelines CI/CD robustes pour l'automatisation.</li>
+                <li>Administration Cloud (AWS) et surveillance avec des outils modernes.</li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Développer une solution d'intelligence artificielle - Machine & Deep Learning (2023).</li>
+                <li>Python pour la science des données (2022).</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Compétences Techniques</h2>
+            <h3>Langages de programmation</h3>
+            <p>Python, R, SQL, Bash</p>
+            <h3>Data Science</h3>
+            <ul>
+                <li>Analyse et visualisation : Numpy, Pandas, Seaborn, Power BI</li>
+                <li>Machine Learning : Scikit-learn, TensorFlow, Keras</li>
+            </ul>
+            <h3>DevOps et Cloud</h3>
+            <ul>
+                <li>Outils : Jenkins, Docker, Kubernetes, Terraform, Ansible</li>
+                <li>AWS : Lambda, CodePipeline, API Gateway</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projets</h2>
+
+            <article>
+                <h3>Détection de la Maladie d'Alzheimer</h3>
+                <p><strong>Description :</strong> Développement d'un pipeline CNN pour classifier des images IRM et détecter des signes précoces de la maladie d'Alzheimer.</p>
+                <ul>
+                    <li><strong>Technologies :</strong> TensorFlow, Python, CNN</li>
+                    <li><strong>Résultats :</strong>
+                        <ul>
+                            <li>Précision de formation : 99.28%</li>
+                            <li>Précision de validation : 86.35%</li>
+                            <li>Précision de test : 84.91%</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Classification des Innovations Environnementales</h3>
+                <p><strong>Description :</strong> Analyse des données issues de l'enquête CIS pour classifier les innovations environnementales selon leurs caractéristiques et impacts.</p>
+                <ul>
+                    <li><strong>Technologies :</strong> Python, Scikit-learn, XGBoost, LightGBM</li>
+                    <li><strong>Résultats :</strong>
+                        <ul>
+                            <li>ROC AUC (XGBoost) : 90.06%</li>
+                            <li>Validation croisée (LightGBM) : 92.17%</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Classification des Produits E-commerce Rakuten</h3>
+                <p><strong>Description :</strong> Classification textuelle et visuelle des produits e-commerce Rakuten à l'aide de modèles combinés.</p>
+                <ul>
+                    <li><strong>Technologies :</strong> FastText, CamemBERT, InceptionV3, Computer Vision</li>
+                    <li><strong>Résultats :</strong>
+                        <ul>
+                            <li>Précision (texte) : 78%</li>
+                            <li>Précision (images) : 68%</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="interests" class="container">
+            <h2>Centres d'intérêt</h2>
+            <ul>
+                <li>Webinaires et conférences en IA</li>
+                <li>Football</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Email : <a href="mailto:diedhiou_zal@yahoo.fr">diedhiou_zal@yahoo.fr</a></p>
+            <p>GitHub : <a href="https://github.com/SDKisito" target="_blank">SDKisito</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/dr-saliou-diedhiou-aa30255b" target="_blank">Profil LinkedIn</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Saliou Diedhiou</p>
+    </footer>
+</body>
+</html>
+
